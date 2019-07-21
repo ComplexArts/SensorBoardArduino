@@ -2,7 +2,9 @@
 
 This project has sample code for the [Complex Arts Sensor Board](http://complexarts.net/home/products:sensor_board).
 
-Code is written using the [ESP32 Arduino core](https://github.com/espressif/arduino-esp32). See
+## Installation
+
+The code is written using the [ESP32 Arduino core](https://github.com/espressif/arduino-esp32). See
 
 https://github.com/espressif/arduino-esp32#installation-instructions
 
@@ -15,6 +17,8 @@ https://www.arduino.cc/en/guide/libraries
 https://learn.sparkfun.com/tutorials/installing-an-arduino-library
 
 for more information on installing arduino libraries.
+
+## Demos
 
 Two demos are provided:
 
