@@ -22,10 +22,10 @@ for more information on installing arduino libraries.
 
 Two demos are provided:
 
-1. HelloWorld  
+1. [HelloWorld](https://github.com/ComplexArts/SensorBoardArduino/tree/master/HelloWorld)  
    Initializes the BNO085 over SPI and prints accelerometer reading
    over serial.
 
-2. Bluetooth  
+2. [Bluetooth](https://github.com/ComplexArts/SensorBoardArduino/tree/master/Bluetooth)  
    Initializes the ESP32 as a Bluetooth device and the BNO085 over SPI
    and prints accelerometer reading over Bluetooth.
