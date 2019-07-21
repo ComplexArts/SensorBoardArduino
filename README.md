@@ -1,11 +1,28 @@
-# BNO085-Bluetooth-Arduino
-Sample Arduino code for using the BNO085 over Bluetooth
+# Complex Arts Sensor Board
 
-This code uses the Sparkfun BNO08X Arduino library along with the standard Bluetooth library for the ESP32. This example sends
-accelerometer data over Bluetooth serial. 
+This project has sample code for the [http://complexarts.net/home/products:sensor_board](Complex Arts Sensor Board).
 
-To use this example code in Arduino, you must have
-1. ESP32 boards installed: 
-  - https://www.youtube.com/watch?v=mBaS3YnqDaU
-2. The Sparkfun BNO08X library installed: 
-  - https://learn.sparkfun.com/tutorials/installing-an-arduino-library
+Code is written using the [https://github.com/espressif/arduino-esp32](ESP32 Arduino core). See
+
+https://github.com/espressif/arduino-esp32#installation-instructions
+
+for instructions on installing the ESP32 Arduino core. 
+
+It also depends on the 
+[https://github.com/sparkfun/SparkFun_BNO080_Arduino_Library](Sparkfun
+BNO08X Arduino library). See
+
+https://www.arduino.cc/en/guide/libraries  
+https://learn.sparkfun.com/tutorials/installing-an-arduino-library
+
+for more information on installing arduino libraries.
+
+Two demos are provided:
+
+1. HelloWorld  
+   Initializes the BNO085 over SPI and prints accelerometer reading
+   over serial.
+
+2. Bluetooth  
+   Initializes the ESP32 as a Bluetooth device and the BNO085 over SPI
+   and prints accelerometer reading over Bluetooth.
