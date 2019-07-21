@@ -1,16 +1,15 @@
 # Complex Arts Sensor Board
 
-This project has sample code for the [http://complexarts.net/home/products:sensor_board](Complex Arts Sensor Board).
+This project has sample code for the [Complex Arts Sensor Board](http://complexarts.net/home/products:sensor_board).
 
-Code is written using the [https://github.com/espressif/arduino-esp32](ESP32 Arduino core). See
+Code is written using the [ESP32 Arduino core](https://github.com/espressif/arduino-esp32). See
 
 https://github.com/espressif/arduino-esp32#installation-instructions
 
 for instructions on installing the ESP32 Arduino core. 
 
 It also depends on the 
-[https://github.com/sparkfun/SparkFun_BNO080_Arduino_Library](Sparkfun
-BNO08X Arduino library). See
+[Sparkfun BNO08X Arduino library](https://github.com/sparkfun/SparkFun_BNO080_Arduino_Library). See
 
 https://www.arduino.cc/en/guide/libraries  
 https://learn.sparkfun.com/tutorials/installing-an-arduino-library
