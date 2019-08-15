@@ -18,6 +18,9 @@ https://learn.sparkfun.com/tutorials/installing-an-arduino-library
 
 for more information on installing arduino libraries.
 
+Android phones can receive serial streams over Bluetooth. See:
+https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal
+
 ## Demos
 
 Two demos are provided:
