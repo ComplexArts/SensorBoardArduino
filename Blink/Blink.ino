@@ -12,6 +12,9 @@
 
 // the setup function runs once when you press reset or power the board
 void setup() {
+
+    Serial.begin(115200);
+  
     // initialize digital pin LED_BUILTIN as an output.
     pinMode(ULED1, OUTPUT);
     pinMode(ULED2, OUTPUT);
@@ -19,6 +22,9 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
+
+    Serial.print(".");
+  
     digitalWrite(ULED1, HIGH);   // turn the LED 1 on  (HIGH is the voltage level)
     digitalWrite(ULED2, LOW);    // turn the LED 2 off (LOW is the voltage level)
     delay(1000);                 // wait for a second
